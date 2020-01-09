@@ -1,0 +1,218 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:300);
+
+
+
+.table-page {
+  width: 920px;
+  padding: 3% 8% 8%;
+  /*! margin: auto; */
+   
+}
+
+a{
+  font-size:14px; 
+  color:#FFFFFF; 
+  text-decoration: none;
+}
+
+ 
+.form {
+  position: revert;
+  z-index: 1;
+  background-image: url(https://img2.goodfon.ru/original/1920x1408/6/6b/bumaga-myataya-fon.jpg);
+  width: 110%;
+  margin: 0 auto 10px;
+  padding: 40px;
+  text-align: left;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+
+.form input[type=submit] {
+  font-family: "Roboto", sans-serif;
+  outline: 0;
+  background: #d3d7cf;
+  width: 100%;
+  border: 0;
+  margin: 0 0 15px;
+  padding: 15px;
+  box-sizing: border-box;
+  font-size: 14px;
+}
+
+.form input {
+  font-family: "Roboto", sans-serif;
+  outline: 0;
+  background: #eeeeec;
+  width: 100%;
+  border: 0;
+  margin: 0 0 15px;
+  padding: 15px;
+  box-sizing: border-box;
+  font-size: 14px;
+}
+
+
+.form button {
+  font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
+  outline: 0;
+  background: #4CAF50;
+  width: 100%;
+  border: 0;
+  padding: 15px;
+  color: #FFFFFF;
+  font-size: 14px;
+  -webkit-transition: all 0.3 ease;
+  transition: all 0.3 ease;
+  cursor: pointer;
+}
+.form button:hover,.form button:active,.form button:focus {
+  background: #43A047;
+}
+message {
+  margin: 15px 0 0;
+  color: #b3b3b3;
+  font-size: 12px;
+}
+
+.form .message input{
+  font-family: "Roboto", sans-serif;
+  outline: 0;
+  background: no-repeat;
+  width: 100%;
+  border: 0;
+  margin: 0 0 0px;
+  text-align: left;
+  padding: 5px;
+  color: #118807;
+  box-sizing: border-box;
+  font-size: 15px;
+ 
+  font-weight: bolder;
+}
+}
+.message input[type=submit]{
+   font-size:14px; 
+  color:#43A047; 
+  text-decoration: none;
+}
+.form .message a {
+  color: #4CAF50;
+  text-decoration: none;
+}
+
+.form .register-form {
+  display: none;
+}
+
+.form table {
+width: 100%;
+padding: 8% 0 0;
+margin: auto;
+border-collapse: collapse;
+}
+.form td, .form th {
+border: 1px solid #1e221c;
+padding: 3px 7px 2px 7px;
+}
+.form th {
+text-align: left;
+padding: 5px;
+background-color: #29590e;
+color: #fff;
+}
+.form .alt td { background-color: #EAF2D3; }
+h3 {
+  font-family: 'Merriweather', serif;
+  font-size: 20px;
+  letter-spacing: 1px;
+  max-width: 320px;
+  width: 100%;
+  position: relative;
+  display: inline-block;
+  color: #465457;
+}
+
+.container {
+  position: relative;
+  z-index: 1;
+  max-width: 300px;
+  margin: 0 auto;
+}
+.container:before, .container:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+.container .info {
+  margin: 50px auto;
+  text-align: center;
+}
+.container .info h1 {
+  margin: 0 0 15px;
+  padding: 0;
+  font-size: 36px;
+  font-weight: 300;
+  color: #1a1a1a;
+}
+.container .info h3 {
+  font-family: 'Merriweather', serif;
+  font-size: 20px;
+  letter-spacing: 1px;
+  max-width: 320px;
+  width: 100%;
+  position: relative;
+  display: inline-block;
+  color: #465457;
+ 
+}
+.container .info .d3 h3:before {
+  content: "";
+  position: absolute;
+  top: calc(50% - 6px);
+  left: 0;
+  right: 0;
+  height: 12px;
+  background: #A6D8CB;
+  z-index: -1;
+}
+.container .info .d3 span {
+  background: white;
+  padding: 0 15px;
+  margin-left: 20px;
+}
+
+.container .info .d4 h3 {
+  padding-bottom: 10px;
+  border-bottom: 2px solid #E5EDEA; 
+}
+.container .info .d4 h3:after {
+  content: "";
+  position: absolute;
+  bottom: -6px;
+  left: 0;
+  width: 30%;
+  height: 4px;
+  background: #A6D8CB;
+}
+.container .info span {
+  color: #4d4d4d;
+  font-size: 12px;
+}
+.container .info span a {
+  color: #000000;
+  text-decoration: none;
+}
+.container .info span .fa {
+  color: #EF3B3A;
+}
+body {
+  background: #76b852; /* fallback for old browsers */
+  background: -webkit-linear-gradient(right, #76b852, #8DC26F);
+  background: -moz-linear-gradient(right, #76b852, #8DC26F);
+  background: -o-linear-gradient(right, #76b852, #8DC26F);
+  background: linear-gradient(to left, #76b852, #8DC26F);
+  font-family: "Roboto", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;      
+}

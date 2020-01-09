@@ -1,0 +1,9 @@
+controller/MakeBug.class
+model/BDUsers.class
+controller/Table.class
+controller/SigninServlet.class
+controller/Info.class
+controller/LoginServlet.class
+model/BDBugs.class
+model/ConnectionBD.class
+controller/LogoutServlet.class
